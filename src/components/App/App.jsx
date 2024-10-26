@@ -34,6 +34,7 @@ function App() {
       <Routes>
         <Route path="/game-page" element={<GamePage />}></Route>
       </Routes>
+      
     </>
   );
 }
