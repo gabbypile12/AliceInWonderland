@@ -16,6 +16,16 @@
   position: relative;
 }
 
+.start-page {
+  width: 100vw;
+  height: 100vh;
+  background-color: palevioletred;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .answers {
   width: 100vw;
   display: flex;
@@ -23,4 +33,12 @@
   position: absolute;
   top: 22vh;
   animation: moveAnswers 7s ease-in-out 0.5s;
+}
+
+.game-page__character {
+  max-height: 22%;
+  object-fit: contain;
+  position: absolute;
+  bottom: 7vh;
+  left: 50vw;
 }
