@@ -1,11 +1,10 @@
-import { useState } from "react";
-// import reactLogo from "./assets/react.svg";
-// import viteLogo from "/vite.svg";
+import { useState, useEffect } from "react";
 
 import "./App.css";
 import GamePage from "../GamePage/GamePage";
 import HomePage from "../HomePage/LandingPage";
 import { Routes, Route } from "react-router-dom";
+import { gameQuestions } from "../../utils/constants";
 
 function App() {
   const [activeQuestion, setActiveQuestion] = useState("");
@@ -18,9 +17,11 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<HomePage />}></Route>
-        <Route path="/game-page" element={<GamePage />}></Route>
+        <Route
+          path="/game-page"
+          element={<GamePage activeQuestion={activeQuestion} />}
+        ></Route>
       </Routes>
-      
     </>
   );
 }
