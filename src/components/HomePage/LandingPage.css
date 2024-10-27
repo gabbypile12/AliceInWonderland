@@ -1,7 +1,7 @@
 body{
     background-color: palevioletred;
     text-align:center;
-    padding:3%;
+    padding:5%;
 }
 Table{
     margin-top:3%;
@@ -10,6 +10,14 @@ Table{
     height:50%;
     width:50%;
 }
+.landPageImage2{
+    height:60%;
+    width:60%;
+}
+.landPageImage3{
+    height:40%;
+    width:40%;
+}
 .rows{
     display: inline-block;
 }
@@ -17,3 +25,21 @@ h1{
     font-family:Trattatello, fantasy ;
     font-size:80px;
 }
+.imageHolders
+{
+    /* background-color: #AA336A;
+    border-radius: 50%; */
+    /* background-color:rgba(216, 112, 147, 0.395); */
+}
+h2{
+    font-family:Trattatello, fantasy ;
+    font-size:40px;
+}
+.my-div {
+    background-color: palevioletred;
+  }
+  
+  .my-div.hovered {
+    border-radius: 50%; 
+     background-color: #AA336A;
+  }
