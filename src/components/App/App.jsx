@@ -9,10 +9,10 @@ import { Routes, Route } from "react-router-dom";
 import { gameQuestions } from "../../utils/constants";
 
 function App() {
-  const [activeQuestion, setActiveQuestion] = useState("");
+  const [activeQuestionObj, setActiveQuestionObj] = useState("");
 
   useEffect(() => {
-    setActiveQuestion(gameQuestions.tips[0].question);
+    setActiveQuestionObj(gameQuestions.tips[0]);
   }, []);
 
   return (
@@ -21,7 +21,7 @@ function App() {
         <Route path="/" element={<HomePage />}></Route>
         <Route
           path="/game-page"
-          element={<GamePage activeQuestion={activeQuestion} />}
+          element={<GamePage activeQuestionObj={activeQuestionObj} />}
         ></Route>
       </Routes>
     </>
