@@ -46,27 +46,30 @@ h2 {
   color: white;
 }
 
-.bubble {
-  width: 40%;
-  height: 25%;
-  left: 73%;
-  top: 10%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  font-size: 5vmin;
-  background: white;
-  box-shadow: 0 -0.25vmin, 0 0.125vmin;
-  font-family: "Comic Sans", "Comic Neue", sans-serif;
+.speech-bubble {
+	position: relative;
+	background: #aa336a;
+	border-radius: .4em;
+  left: -100px;
+  height:100px;
+  width:600px;
+  padding:3%;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+
 }
 
-.bubble::before {
-  width: 40%;
-  height: 100%;
-  bottom: -51%;
-  border-radius: 50%;
-  left: 10%;
-  box-shadow: 0.5vmin 0, 2vmin -0.5vmin #ffd, 2vmin -0.5vmin 0 0.5vmin;
-  clip-path: polygon(0% 49%, 150% 48%, 150% 100%, 0% 100%);
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 35px solid transparent;
+	border-top-color: #aa336a;
+	border-bottom: 0;
+	border-right: 0;
+	margin-left: -17.5px;
+	margin-bottom: -35px;
 }

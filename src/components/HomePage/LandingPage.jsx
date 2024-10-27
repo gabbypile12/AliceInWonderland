@@ -47,6 +47,9 @@ function LandingPage() {
           <tr>
             <td></td>
             <td>
+              <div className = "speech-bubble"> Hi my name is Snow White! I am first year computer science Student like you. In order to grow my confidence in computer science, you and I will be studying together! Lets chose a topic to review!
+
+              </div>
               <img src={Alice} className="landPageImage" />
             </td>
             <td></td>
