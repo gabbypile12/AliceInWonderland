@@ -1,0 +1,33 @@
+.header {
+  position: relative;
+}
+
+.nav {
+  background-color: palevioletred;
+  max-height: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav__link {
+  color: azure;
+  padding-right: 10px;
+  font-weight: 500;
+}
+
+.header__question-container {
+  border: 15px solid palevioletred;
+  border-top: 5px;
+  border-radius: 100px;
+  min-height: 50px;
+  max-width: 550px;
+  display: flex;
+  margin: 0 auto;
+  background-color: rgba(240, 255, 255, 0.273);
+}
+
+.header__question {
+  font-size: 25px;
+  margin: auto;
+  padding: 20px;
+}

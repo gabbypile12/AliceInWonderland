@@ -1,3 +1,10 @@
-export default function GamePage() {
-  return <div className="game-page"></div>;
+import "./GamePage.css";
+import Header from "../Header/Header";
+
+export default function GamePage({ activeQuestion }) {
+  return (
+    <div className="game-page">
+      <Header activeQuestion={activeQuestion} />
+    </div>
+  );
 }
