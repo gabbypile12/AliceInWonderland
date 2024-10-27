@@ -3,7 +3,7 @@
     top: 22vh;
   }
   to {
-    top: 100vh;
+    top: 90vh;
   }
 }
 
@@ -22,5 +22,5 @@
   justify-content: space-evenly;
   position: absolute;
   top: 22vh;
-  animation: moveAnswers 7s linear 2s;
+  animation: moveAnswers 7s ease-in-out 0.5s;
 }
