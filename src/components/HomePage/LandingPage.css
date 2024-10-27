@@ -1,3 +1,10 @@
 body{
     background-color: palevioletred;
 }
+.landPageImage{
+    height:20%;
+    width:20%;
+}
+.rows{
+    display: inline-block;
+}
