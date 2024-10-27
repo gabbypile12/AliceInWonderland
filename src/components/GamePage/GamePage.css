@@ -1,7 +1,26 @@
+@keyframes moveAnswers {
+  from {
+    top: 22vh;
+  }
+  to {
+    top: 100vh;
+  }
+}
+
 .game-page {
   height: 100vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
-  background-color: rgba(216, 112, 147, 0.395);
+  background-color: rgb(255, 217, 230);
+  position: relative;
+}
+
+.answers {
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 22vh;
+  animation: moveAnswers 7s linear 2s;
 }

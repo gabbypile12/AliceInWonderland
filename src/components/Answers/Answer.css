@@ -1,0 +1,14 @@
+.answer {
+  max-height: 50px;
+  max-width: 200px;
+  background-color: #b5e2fa;
+  border: 10px solid #0fa3b1;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.answer__text {
+  margin: 10px;
+}
